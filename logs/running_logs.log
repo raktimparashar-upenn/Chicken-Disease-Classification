@@ -243,3 +243,112 @@ x==========x]
 [2024-03-11 18:58:51,355: INFO: common: created directory at: artifacts]
 [2024-03-11 18:58:51,355: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
 [2024-03-11 18:58:51,356: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-11 19:09:22,060: WARNING: module_wrapper: From c:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 19:11:15,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 19:11:15,131: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 19:11:15,132: INFO: common: created directory at: artifacts]
+[2024-03-11 19:11:15,133: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-11 19:11:15,134: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-11 19:11:15,135: INFO: common: created directory at: artifacts\training]
+[2024-03-11 19:11:15,280: WARNING: module_wrapper: From c:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 19:11:15,329: WARNING: module_wrapper: From c:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 19:11:16,545: WARNING: module_wrapper: From c:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2024-03-11 19:23:14,769: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 19:23:47,718: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 19:25:02,720: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 19:25:03,106: INFO: stage_03_training: *******************]
+[2024-03-11 19:25:03,107: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-03-11 19:25:03,110: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 19:25:03,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 19:25:03,111: INFO: common: created directory at: artifacts]
+[2024-03-11 19:25:03,112: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-11 19:25:03,113: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-11 19:25:03,114: INFO: common: created directory at: artifacts\training]
+[2024-03-11 19:25:03,116: ERROR: stage_03_training: No file or directory found at artifacts\prepare_base_model\base_model_updated.h5]
+Traceback (most recent call last):
+  File "c:\Users\Raktim\Desktop\Computer-Vision\Chicken Disease Classification\Chicken-Disease-Classification\src\cnnClassifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "c:\Users\Raktim\Desktop\Computer-Vision\Chicken Disease Classification\Chicken-Disease-Classification\src\cnnClassifier\pipeline\stage_03_training.py", line 24, in main
+    training.get_base_model()
+  File "c:\users\raktim\desktop\computer-vision\chicken disease classification\chicken-disease-classification\src\cnnClassifier\components\training.py", line 11, in get_base_model
+    self.model = tf.keras.models.load_model(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\saving\saving_api.py", line 262, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\saving\legacy\save.py", line 234, in load_model
+    raise IOError(
+OSError: No file or directory found at artifacts\prepare_base_model\base_model_updated.h5
+[2024-03-11 19:27:21,340: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 19:27:21,744: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 19:27:21,746: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 19:27:21,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 19:27:21,748: INFO: common: created directory at: artifacts]
+[2024-03-11 19:27:21,748: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 19:27:24,592: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CBA4:0D43:15BA9E:1960DE:65EFBD90
+Accept-Ranges: bytes
+Date: Tue, 12 Mar 2024 02:27:29 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770043-PAO
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1710210449.003363,VS0,VE496
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7209827e242333f9e58a6d838fd586ea63cc3a17
+Expires: Tue, 12 Mar 2024 02:32:29 GMT
+Source-Age: 0
+
+]
+[2024-03-11 19:27:24,772: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 19:27:24,772: INFO: main: *******************]
+[2024-03-11 19:27:24,772: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-11 19:27:24,774: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 19:27:24,775: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 19:27:24,775: INFO: common: created directory at: artifacts]
+[2024-03-11 19:27:24,776: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-11 19:27:24,880: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 19:27:24,932: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 19:27:25,234: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-11 19:27:25,418: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-11 19:27:25,419: INFO: main: *******************]
+[2024-03-11 19:27:25,419: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-03-11 19:27:25,420: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 19:27:25,421: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 19:27:25,422: INFO: common: created directory at: artifacts]
+[2024-03-11 19:27:25,422: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-11 19:27:25,422: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-11 19:27:25,423: INFO: common: created directory at: artifacts\training]
+[2024-03-11 19:27:26,095: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2024-03-11 19:29:52,908: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
