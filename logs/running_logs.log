@@ -477,3 +477,363 @@ x==========x]
 [2024-03-11 20:32:08,463: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-03-11 20:41:51,229: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 20:41:51,231: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:41:51,232: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:41:51,233: INFO: common: created directory at: artifacts]
+[2024-03-11 20:41:51,233: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 20:41:54,289: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 48A0:86D9:F331A4:121C8C8:65EFC9CB
+Accept-Ranges: bytes
+Date: Tue, 12 Mar 2024 03:41:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770024-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1710214919.576043,VS0,VE140
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ace6c325abc9d7d243c23adb99cf8811dc55628a
+Expires: Tue, 12 Mar 2024 03:46:58 GMT
+Source-Age: 0
+
+]
+[2024-03-11 20:41:54,500: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 20:42:51,212: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 20:42:51,213: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:42:51,214: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:42:51,215: INFO: common: created directory at: artifacts]
+[2024-03-11 20:42:51,215: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 20:42:51,216: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-03-11 20:42:51,374: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 20:43:45,420: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 20:43:45,422: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:43:45,423: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:43:45,424: INFO: common: created directory at: artifacts]
+[2024-03-11 20:43:45,424: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 20:43:45,424: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-03-11 20:43:45,590: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 20:43:59,893: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 20:44:00,439: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 20:44:00,442: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:44:00,443: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:44:00,443: INFO: common: created directory at: artifacts]
+[2024-03-11 20:44:00,443: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 20:44:00,444: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-03-11 20:44:00,597: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 20:44:00,598: INFO: main: *******************]
+[2024-03-11 20:44:00,598: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-11 20:44:00,599: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:44:00,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:44:00,601: INFO: common: created directory at: artifacts]
+[2024-03-11 20:44:00,601: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-11 20:44:00,688: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 20:44:00,734: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 20:44:01,063: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-11 20:44:01,370: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-11 20:44:01,370: INFO: main: *******************]
+[2024-03-11 20:44:01,371: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-03-11 20:44:01,372: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:44:01,373: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:44:01,373: INFO: common: created directory at: artifacts]
+[2024-03-11 20:44:01,381: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-11 20:44:01,382: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-11 20:44:01,383: INFO: common: created directory at: artifacts\training]
+[2024-03-11 20:44:02,005: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2024-03-11 20:46:37,283: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-03-11 20:46:37,284: INFO: main: *******************]
+[2024-03-11 20:46:37,284: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-03-11 20:46:37,288: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:46:37,288: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:46:37,290: INFO: common: created directory at: artifacts]
+[2024-03-11 20:46:42,788: INFO: common: json file saved at: scores.json]
+[2024-03-11 20:46:42,788: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-03-11 20:48:35,540: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 20:48:35,542: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:48:35,543: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:48:35,543: INFO: common: created directory at: artifacts]
+[2024-03-11 20:48:35,543: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 20:48:35,543: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-03-11 20:48:35,712: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 20:50:25,278: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 20:50:25,280: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 20:50:25,281: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 20:50:25,282: INFO: common: created directory at: artifacts]
+[2024-03-11 20:50:25,283: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 20:50:25,283: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-03-11 20:50:25,439: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 22:32:05,768: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 22:32:05,773: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 22:32:05,774: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 22:32:05,775: INFO: common: created directory at: artifacts]
+[2024-03-11 22:32:05,776: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 22:32:05,776: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-03-11 22:32:06,070: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 22:43:37,665: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-11 22:43:37,668: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 22:43:37,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 22:43:37,671: INFO: common: created directory at: artifacts]
+[2024-03-11 22:43:37,671: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-11 22:43:37,672: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-03-11 22:43:37,940: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-11 22:43:46,912: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 22:43:47,825: INFO: stage_02_prepare_base_model: *******************]
+[2024-03-11 22:43:47,826: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-11 22:43:47,830: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 22:43:47,832: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 22:43:47,833: INFO: common: created directory at: artifacts]
+[2024-03-11 22:43:47,834: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-11 22:43:48,039: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 22:43:48,143: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 22:43:48,723: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-11 22:43:49,056: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-11 22:44:25,208: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 22:44:25,986: INFO: stage_02_prepare_base_model: *******************]
+[2024-03-11 22:44:25,986: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-11 22:44:25,990: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 22:44:25,992: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 22:44:25,992: INFO: common: created directory at: artifacts]
+[2024-03-11 22:44:25,993: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-11 22:44:26,170: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 22:44:26,266: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 22:44:26,838: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-11 22:44:27,169: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-11 22:44:34,580: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 22:44:35,471: INFO: stage_03_training: *******************]
+[2024-03-11 22:44:35,472: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-03-11 22:44:35,475: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 22:44:35,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 22:44:35,476: INFO: common: created directory at: artifacts]
+[2024-03-11 22:44:35,478: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-11 22:44:35,478: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-11 22:44:35,480: INFO: common: created directory at: artifacts\training]
+[2024-03-11 22:44:35,678: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 22:44:35,697: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 22:44:37,119: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2024-03-11 23:01:28,259: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 23:01:29,738: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.164:8080]
+[2024-03-11 23:01:29,739: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-03-11 23:02:09,739: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:02:09] "GET / HTTP/1.1" 200 -]
+[2024-03-11 23:02:27,360: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Raktim\Desktop\Computer-Vision\Chicken Disease Classification\Chicken-Disease-Classification\app.py", line 41, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\raktim\desktop\computer-vision\chicken disease classification\chicken-disease-classification\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\saving\saving_api.py", line 262, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\saving\legacy\save.py", line 234, in load_model
+    raise IOError(
+OSError: No file or directory found at artifacts\training\model.h5
+[2024-03-11 23:02:27,372: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:02:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-11 23:04:29,448: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-03-11 23:05:17,649: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 23:05:18,453: INFO: stage_03_training: *******************]
+[2024-03-11 23:05:18,454: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-03-11 23:05:18,457: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 23:05:18,459: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 23:05:18,460: INFO: common: created directory at: artifacts]
+[2024-03-11 23:05:18,461: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-11 23:05:18,462: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-11 23:05:18,464: INFO: common: created directory at: artifacts\training]
+[2024-03-11 23:05:18,664: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 23:05:18,680: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 23:05:19,892: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2024-03-11 23:20:21,778: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:20:21] "GET / HTTP/1.1" 200 -]
+[2024-03-11 23:20:29,929: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Raktim\Desktop\Computer-Vision\Chicken Disease Classification\Chicken-Disease-Classification\app.py", line 41, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\raktim\desktop\computer-vision\chicken disease classification\chicken-disease-classification\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\saving\saving_api.py", line 262, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\saving\legacy\save.py", line 234, in load_model
+    raise IOError(
+OSError: No file or directory found at artifacts\training\model.h5
+[2024-03-11 23:20:30,106: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:20:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-11 23:22:39,937: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:22:39] "GET / HTTP/1.1" 200 -]
+[2024-03-11 23:22:49,959: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Raktim\Desktop\Computer-Vision\Chicken Disease Classification\Chicken-Disease-Classification\app.py", line 41, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\raktim\desktop\computer-vision\chicken disease classification\chicken-disease-classification\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\saving\saving_api.py", line 262, in load_model
+    return legacy_sm_saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\saving\legacy\save.py", line 234, in load_model
+    raise IOError(
+OSError: No file or directory found at artifacts\training\model.h5
+[2024-03-11 23:22:50,013: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:22:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-11 23:22:59,936: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:22:59] "GET / HTTP/1.1" 200 -]
+[2024-03-11 23:23:52,592: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-03-11 23:24:01,065: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 23:24:01,980: INFO: stage_04_evaluation: *******************]
+[2024-03-11 23:24:01,981: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-03-11 23:24:01,984: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-11 23:24:01,987: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-11 23:24:01,988: INFO: common: created directory at: artifacts]
+[2024-03-11 23:24:02,189: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 23:24:02,219: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 23:24:03,435: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2024-03-11 23:24:16,794: INFO: common: json file saved at: scores.json]
+[2024-03-11 23:24:16,794: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-03-11 23:26:46,066: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-03-11 23:26:47,110: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.164:8080]
+[2024-03-11 23:26:47,111: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-03-11 23:26:50,303: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:26:50] "GET / HTTP/1.1" 200 -]
+[2024-03-11 23:26:56,432: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-03-11 23:26:56,478: WARNING: module_wrapper: From C:\Users\Raktim\anaconda3\envs\CV\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-03-11 23:26:58,232: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:26:58] "POST /predict HTTP/1.1" 200 -]
+[2024-03-11 23:27:10,074: INFO: _internal: 127.0.0.1 - - [11/Mar/2024 23:27:10] "POST /predict HTTP/1.1" 200 -]
+[2024-03-12 10:31:26,360: INFO: _internal: 127.0.0.1 - - [12/Mar/2024 10:31:26] "GET / HTTP/1.1" 200 -]
+[2024-03-12 10:31:32,297: INFO: _internal: 127.0.0.1 - - [12/Mar/2024 10:31:32] "POST /predict HTTP/1.1" 200 -]
+[2024-03-12 10:31:39,698: INFO: _internal: 127.0.0.1 - - [12/Mar/2024 10:31:39] "POST /predict HTTP/1.1" 200 -]
+[2024-03-12 10:31:46,407: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000019658C5CFE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-03-12 10:31:46,412: INFO: _internal: 127.0.0.1 - - [12/Mar/2024 10:31:46] "POST /predict HTTP/1.1" 200 -]
+[2024-03-12 10:31:53,996: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000019658C5FF60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-03-12 10:31:54,000: INFO: _internal: 127.0.0.1 - - [12/Mar/2024 10:31:54] "POST /predict HTTP/1.1" 200 -]
