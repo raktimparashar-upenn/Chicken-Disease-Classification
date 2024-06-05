@@ -1,7 +1,7 @@
 # Chicken-Disease-Classification--Project
 
-![alt text](https://github.com/raktimparashar-upenn/Chicken-Disease-Classification/blob/main/1.jpg?raw=true)
-![alt text](https://github.com/raktimparashar-upenn/Chicken-Disease-Classification/blob/main/2.jpg?raw=true)
+![alt text](https://github.com/raktimparashar-upenn/Chicken-Disease-Classification/main/1.jpg?raw=true)
+![alt text](https://github.com/raktimparashar-upenn/Chicken-Disease-Classification/main/2.jpg?raw=true)
 
 
 ## Workflows
