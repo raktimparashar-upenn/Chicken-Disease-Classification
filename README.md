@@ -19,7 +19,7 @@
 # How to run?
 ### STEPS:
 
-Clone the repository
+Clone the repository.
 
 ```bash
 https://github.com/aarjayparashar/Chicken-Disease-Classification
@@ -27,11 +27,11 @@ https://github.com/aarjayparashar/Chicken-Disease-Classification
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n <env_name> python=3.8 -y
 ```
 
 ```bash
-conda activate cnncls
+conda activate <env_name>
 ```
 
 
@@ -48,7 +48,7 @@ python app.py
 
 Now,
 ```bash
-open up you local host and port
+open local host and port
 ```
 
 
@@ -101,7 +101,7 @@ open up you local host and port
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	#optional
 
 	sudo apt-get update -y
 
@@ -135,26 +135,3 @@ open up you local host and port
 
 
 
-
-# AZURE-CICD-Deployment-with-Github-Actions
-
-## Save pass:
-
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
-
-
-## Run from terminal:
-
-docker build -t chickenapp.azurecr.io/chicken:latest .
-
-docker login chickenapp.azurecr.io
-
-docker push chickenapp.azurecr.io/chicken:latest
-
-
-## Deployment Steps:
-
-1. Build the Docker image of the Source Code
-2. Push the Docker image to Container Registry
-3. Launch the Web App Server in Azure 
-4. Pull the Docker image from the container registry to Web App server and run 
